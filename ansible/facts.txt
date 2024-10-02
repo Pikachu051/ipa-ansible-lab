@@ -4,7 +4,7 @@
             "172.31.115.11"
         ],
         "ansible_all_ipv6_addresses": [
-            "fe80::e1d:fcff:fe0a:0"
+            "fe80::e21:3fff:fe98:0"
         ],
         "ansible_apparmor": {
             "status": "enabled"
@@ -29,25 +29,25 @@
             "root": "PARTUUID=d6580da4-156a-40c4-b838-d13c68c37fd3"
         },
         "ansible_date_time": {
-            "date": "2024-08-13",
-            "day": "13",
-            "epoch": "1723553430",
-            "epoch_int": "1723553430",
-            "hour": "12",
-            "iso8601": "2024-08-13T12:50:30Z",
-            "iso8601_basic": "20240813T125030290851",
-            "iso8601_basic_short": "20240813T125030",
-            "iso8601_micro": "2024-08-13T12:50:30.290851Z",
-            "minute": "50",
-            "month": "08",
-            "second": "30",
-            "time": "12:50:30",
+            "date": "2024-10-02",
+            "day": "02",
+            "epoch": "1727864397",
+            "epoch_int": "1727864397",
+            "hour": "10",
+            "iso8601": "2024-10-02T10:19:57Z",
+            "iso8601_basic": "20241002T101957386300",
+            "iso8601_basic_short": "20241002T101957",
+            "iso8601_micro": "2024-10-02T10:19:57.386300Z",
+            "minute": "19",
+            "month": "10",
+            "second": "57",
+            "time": "10:19:57",
             "tz": "UTC",
             "tz_dst": "UTC",
             "tz_offset": "+0000",
-            "weekday": "Tuesday",
-            "weekday_number": "2",
-            "weeknumber": "33",
+            "weekday": "Wednesday",
+            "weekday_number": "3",
+            "weeknumber": "40",
             "year": "2024"
         },
         "ansible_default_ipv4": {
@@ -56,7 +56,7 @@
             "broadcast": "172.31.115.255",
             "gateway": "172.31.115.1",
             "interface": "ens3",
-            "macaddress": "0c:1d:fc:0a:00:00",
+            "macaddress": "0c:21:3f:98:00:00",
             "mtu": 1500,
             "netmask": "255.255.255.0",
             "network": "172.31.115.0",
@@ -354,9 +354,9 @@
                                 "bf3c6466-f491-42a9-9a85-74107222f058"
                             ]
                         },
-                        "sectors": "4384735",
+                        "sectors": "14624735",
                         "sectorsize": 512,
-                        "size": "2.09 GB",
+                        "size": "6.97 GB",
                         "start": "227328",
                         "uuid": "bf3c6466-f491-42a9-9a85-74107222f058"
                     },
@@ -398,9 +398,9 @@
                 "sas_address": null,
                 "sas_device_handle": null,
                 "scheduler_mode": "mq-deadline",
-                "sectors": "4612096",
+                "sectors": "14852096",
                 "sectorsize": "512",
-                "size": "2.20 GB",
+                "size": "7.08 GB",
                 "support_discard": "512",
                 "vendor": "0x1af4",
                 "virtual": 1
@@ -496,12 +496,12 @@
             },
             "ipv6": [
                 {
-                    "address": "fe80::e1d:fcff:fe0a:0",
+                    "address": "fe80::e21:3fff:fe98:0",
                     "prefix": "64",
                     "scope": "link"
                 }
             ],
-            "macaddress": "0c:1d:fc:0a:00:00",
+            "macaddress": "0c:21:3f:98:00:00",
             "module": "virtio_net",
             "mtu": 1500,
             "pciid": "virtio0",
@@ -524,14 +524,14 @@
             "PWD": "/home/ubuntu",
             "SHELL": "/bin/bash",
             "SHLVL": "0",
-            "SSH_CLIENT": "10.110.198.48 49826 22",
-            "SSH_CONNECTION": "10.110.198.48 49826 172.31.115.11 22",
+            "SSH_CLIENT": "10.110.198.49 59144 22",
+            "SSH_CONNECTION": "10.110.198.49 59144 172.31.115.11 22",
             "SSH_TTY": "/dev/pts/0",
             "TERM": "xterm-256color",
             "USER": "ubuntu",
             "XDG_RUNTIME_DIR": "/run/user/1000",
             "XDG_SESSION_CLASS": "user",
-            "XDG_SESSION_ID": "12",
+            "XDG_SESSION_ID": "23",
             "XDG_SESSION_TYPE": "tty",
             "_": "/bin/sh"
         },
@@ -635,8 +635,8 @@
             "type": "loopback"
         },
         "ansible_loadavg": {
-            "15m": 0.0,
-            "1m": 0.0,
+            "15m": 0.01,
+            "1m": 0.08,
             "5m": 0.02
         },
         "ansible_local": {},
@@ -648,7 +648,7 @@
             ],
             "ipv6": [
                 "::1",
-                "fe80::e1d:fcff:fe0a:0"
+                "fe80::e21:3fff:fe98:0"
             ]
         },
         "ansible_lsb": {
@@ -660,17 +660,17 @@
         },
         "ansible_lvm": "N/A",
         "ansible_machine": "x86_64",
-        "ansible_machine_id": "391dfc0a27c54c8aa2c471c0e7d8ec1c",
-        "ansible_memfree_mb": 552,
+        "ansible_machine_id": "02213f98fd7542a7b5f55c4f9eb58265",
+        "ansible_memfree_mb": 562,
         "ansible_memory_mb": {
             "nocache": {
-                "free": 813,
-                "used": 168
+                "free": 812,
+                "used": 169
             },
             "real": {
-                "free": 552,
+                "free": 562,
                 "total": 981,
-                "used": 429
+                "used": 419
             },
             "swap": {
                 "cached": 0,
@@ -682,19 +682,19 @@
         "ansible_memtotal_mb": 981,
         "ansible_mounts": [
             {
-                "block_available": 183984,
+                "block_available": 1419659,
                 "block_size": 4096,
-                "block_total": 514525,
-                "block_used": 330541,
+                "block_total": 1755129,
+                "block_used": 335470,
                 "device": "/dev/vda1",
                 "fstype": "ext4",
-                "inode_available": 201647,
-                "inode_total": 274176,
-                "inode_used": 72529,
+                "inode_available": 830628,
+                "inode_total": 903168,
+                "inode_used": 72540,
                 "mount": "/",
                 "options": "rw,relatime",
-                "size_available": 753598464,
-                "size_total": 2107494400,
+                "size_available": 5814923264,
+                "size_total": 7189008384,
                 "uuid": "bf3c6466-f491-42a9-9a85-74107222f058"
             },
             {
@@ -815,13 +815,13 @@
         },
         "ansible_selinux_python_present": true,
         "ansible_service_mgr": "systemd",
-        "ansible_ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBAKvZCowDI48cF7WC2Jacu+QUJWvA9tuY/062hNIX3hFbToRKXU2FqSn6Kxzglz5GZAup6ku9LtslL/Rwn1wTVuq0z4dmFI1JtoJAi3ATYDioIQDu903eRZVQ2Xu2Vd+qSVvj1trq6ZKOanUxKEYA8rUoHbawGe7lXBekU/jswcR/AAAAFQD3xjlykuIsXtxXuM15ALyArBnqxQAAAIAE/CDyVK2CbhEy7t10wm4Wzhli/aelWI+5UgNqdxEy6ZuQDZ8ZMC81NlkByBERXJcrBtPtPaAbrLKcYiNAwQRUDx/VMmiPBFhffNqGOXSJXL8RP5QffQR36pVbZT+38M8/Mw0DMSk0EKiye+zUP2veSXvQl0SHRkn+MxtXtgJUYgAAAIBlHuLmXwpaR7dpbG+mfrSRzBbX+PpEfM22KnHKNdVkZKve3XQdTjvBuPlXVqMYeZP1G06VMdgnpkK4KjNmq5kEIlux9++aGnbVQtoVxOKNWuZMIZiFFMVCvDLwzsT3H4OYqE2JbNxt3PQcUzvsMbC3KV3DzB/aVPkHya6syUsn9w==",
+        "ansible_ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBALleo53B0zUxu5DelmnWJ9F324JB9D/D9QxDUo5NtuRFQJN24njvdXkZcj3D53J3DZjJjOj3KFs7A8Qmoa5ja7FPYvfnSUbeLkMkWSAuFkfadF/+Q6zxOCO87VWUcn7gt3Kayk6BvlLcemll/+5t7cgmK5RqUaLSIvzjFuscF7kDAAAAFQChPwwLpUwYhVZwPJ4RqmDJ/y3QhwAAAIBiMSZgrFVdT/21tkXOHzCSkHYHuWOoPl7JExLlGoC0xy8D91GW1VZPbIV8MxbaTlbD3spGnPlMBv5+OgFXHfY+YCHxUDTdzl+vHPyRX2/LXJH4A0xt6fajX8UxXcyWs3J0QAZLfrTOduzQnf+/vKujJwJIzZABwj+zrtlEM058aAAAAIAIuCpQhsTkfd900ZwMfXpaf5wig6JCdoZh6CFLfhKp7foBmIggL+ETkSRKlQkeVtPWsAfwswr3G0jelQcMT0TxLk1tZJuBUXebWtb1CegpEu4Hoyh078s0ukLkX3aTc691QqYFEyLjQfj1xeWYepznxCJlyH/SMVIka2UAb3qqxA==",
         "ansible_ssh_host_key_dsa_public_keytype": "ssh-dss",
-        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEZK266SZ1sS+wJLLJ38T8yuJDLHmMIGkInQh7NykqgAO7GBifoNmjnloeAbTzT7p1nEw+rlsGmr7ldiJVASGvE=",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGt03gJ66II29O/V8yK0uUPTWKV1LFVvfuk/fDkUo4VpnsvL8pgouhAysPbwUyjZoGgg2BiNIH7DovLp1XxqHkU=",
         "ansible_ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
-        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIFc5MfEwaQhr8f7dpOX8roZS5iiTReiltHfxaZOaebKy",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIBnuhTDW078w2hIrwopwQ+vnVzN162tCSa/gfFBZyfwl",
         "ansible_ssh_host_key_ed25519_public_keytype": "ssh-ed25519",
-        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDwYm/rjikO7Iou/VnYbJi6JDoHir8U/MCeRUbWBApHQnJPUr6Hgymf+qXWzcTi1ErnqhuaXivTx7PKbojK5JRGstcuXP1ynTiWk1inktJyFUJJtKKOKuMc/pfEFWMslZfGHJL3BqVsD4w1NQqytA9t39OqgDtodoWY/7uZkjajBwiTTrUM/+7N+niqypVMkxPp5SrWQTwnYBHOIZR2oex5Z0HAqOc7zNRPo6hmaDg8AimVEeWiCIxkbrMw60fy2f0qQ6h1Q4po4DcN4xHhe1tIS5WFCsJoP89PTUoKXn36x4xz9PbH8MpgBRw/WIA84z3J7okXsCsYAxwJAMi5FbiyXFJVK8C8CrpEztgd5tB/I576p2YJ4kKVDCOgxQoA9X/ZupGnPgv47pMmyg5Y4lpQrAJidUjMwy96Pg+34dzUJ5FmyispjltQzMy1O7oDSuo+uip3zlex66WWejXvRxT6NHd2Yhr0skEC1SMEht3I6FDhM94WX76TIIoJA2HAAh8=",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQCrYeW84up+TO/ImoGuBg5kTm84zyUyUFpkYC0lqGXzy2+NxVHfT1Wll78CNlFjBBQ4Lq2P+oJhV+pxDa0hEZj1lgw2SmXppSRZisuF7wDzZhEwgSkrOvqnB22ZhqNIEWghq2gMTPvetu5HRQh8NlzEAsWQzMCt7bZDyVn1gq9I9bxxjDtsY/inVaPY0IZUBrjPXYuRPyWz2BAYMVcKmm8PJW33VJVdutp5II3UGbF1dZaIn6AvwmY4cX0TYN2vN+SSqXNwnikkzmbr3DtszOBGL00jE2VGrvSdVcgbTv7WICv4bLyX3+84FfQjDZJOi1yyyxkoiLKWzi12b3qIqJGbpgFP1EQmrTsliJFeSd8FAgUlOtRn/bVCH7vFFGgAvQBCAZfw9bSHyUQrojBiR3+5DvvfVxxyMvT017JD78l9t4jL10A6mAW1ZUETew/ql5+GtB1D15ntI2YIsVmvT+8Xj2VKP/ueZpd4Avz18Iw9WzsDOrOyE7z0tt3Yb6g2W0c=",
         "ansible_ssh_host_key_rsa_public_keytype": "ssh-rsa",
         "ansible_swapfree_mb": 0,
         "ansible_swaptotal_mb": 0,
@@ -831,7 +831,7 @@
         ],
         "ansible_system_capabilities_enforced": "True",
         "ansible_system_vendor": "QEMU",
-        "ansible_uptime_seconds": 4691,
+        "ansible_uptime_seconds": 7218,
         "ansible_user_dir": "/home/ubuntu",
         "ansible_user_gecos": "Ubuntu",
         "ansible_user_gid": 1000,
@@ -862,7 +862,7 @@
             "172.31.115.10"
         ],
         "ansible_all_ipv6_addresses": [
-            "fe80::e86:6aff:fea5:0"
+            "fe80::eed:7aff:fefb:0"
         ],
         "ansible_apparmor": {
             "status": "enabled"
@@ -887,25 +887,25 @@
             "root": "PARTUUID=d6580da4-156a-40c4-b838-d13c68c37fd3"
         },
         "ansible_date_time": {
-            "date": "2024-08-13",
-            "day": "13",
-            "epoch": "1723553430",
-            "epoch_int": "1723553430",
-            "hour": "12",
-            "iso8601": "2024-08-13T12:50:30Z",
-            "iso8601_basic": "20240813T125030736266",
-            "iso8601_basic_short": "20240813T125030",
-            "iso8601_micro": "2024-08-13T12:50:30.736266Z",
-            "minute": "50",
-            "month": "08",
-            "second": "30",
-            "time": "12:50:30",
+            "date": "2024-10-02",
+            "day": "02",
+            "epoch": "1727864397",
+            "epoch_int": "1727864397",
+            "hour": "10",
+            "iso8601": "2024-10-02T10:19:57Z",
+            "iso8601_basic": "20241002T101957033806",
+            "iso8601_basic_short": "20241002T101957",
+            "iso8601_micro": "2024-10-02T10:19:57.033806Z",
+            "minute": "19",
+            "month": "10",
+            "second": "57",
+            "time": "10:19:57",
             "tz": "UTC",
             "tz_dst": "UTC",
             "tz_offset": "+0000",
-            "weekday": "Tuesday",
-            "weekday_number": "2",
-            "weeknumber": "33",
+            "weekday": "Wednesday",
+            "weekday_number": "3",
+            "weeknumber": "40",
             "year": "2024"
         },
         "ansible_default_ipv4": {
@@ -914,7 +914,7 @@
             "broadcast": "172.31.115.255",
             "gateway": "172.31.115.1",
             "interface": "ens3",
-            "macaddress": "0c:86:6a:a5:00:00",
+            "macaddress": "0c:ed:7a:fb:00:00",
             "mtu": 1500,
             "netmask": "255.255.255.0",
             "network": "172.31.115.0",
@@ -1212,9 +1212,9 @@
                                 "bf3c6466-f491-42a9-9a85-74107222f058"
                             ]
                         },
-                        "sectors": "4384735",
+                        "sectors": "14624735",
                         "sectorsize": 512,
-                        "size": "2.09 GB",
+                        "size": "6.97 GB",
                         "start": "227328",
                         "uuid": "bf3c6466-f491-42a9-9a85-74107222f058"
                     },
@@ -1256,9 +1256,9 @@
                 "sas_address": null,
                 "sas_device_handle": null,
                 "scheduler_mode": "mq-deadline",
-                "sectors": "4612096",
+                "sectors": "14852096",
                 "sectorsize": "512",
-                "size": "2.20 GB",
+                "size": "7.08 GB",
                 "support_discard": "512",
                 "vendor": "0x1af4",
                 "virtual": 1
@@ -1354,12 +1354,12 @@
             },
             "ipv6": [
                 {
-                    "address": "fe80::e86:6aff:fea5:0",
+                    "address": "fe80::eed:7aff:fefb:0",
                     "prefix": "64",
                     "scope": "link"
                 }
             ],
-            "macaddress": "0c:86:6a:a5:00:00",
+            "macaddress": "0c:ed:7a:fb:00:00",
             "module": "virtio_net",
             "mtu": 1500,
             "pciid": "virtio0",
@@ -1382,14 +1382,14 @@
             "PWD": "/home/ubuntu",
             "SHELL": "/bin/bash",
             "SHLVL": "0",
-            "SSH_CLIENT": "10.110.198.48 47526 22",
-            "SSH_CONNECTION": "10.110.198.48 47526 172.31.115.10 22",
+            "SSH_CLIENT": "10.110.198.49 60986 22",
+            "SSH_CONNECTION": "10.110.198.49 60986 172.31.115.10 22",
             "SSH_TTY": "/dev/pts/0",
             "TERM": "xterm-256color",
             "USER": "ubuntu",
             "XDG_RUNTIME_DIR": "/run/user/1000",
             "XDG_SESSION_CLASS": "user",
-            "XDG_SESSION_ID": "13",
+            "XDG_SESSION_ID": "17",
             "XDG_SESSION_TYPE": "tty",
             "_": "/bin/sh"
         },
@@ -1400,8 +1400,8 @@
         "ansible_hostname": "ubuntu-cloud-1",
         "ansible_hostnqn": "",
         "ansible_interfaces": [
-            "ens3",
-            "lo"
+            "lo",
+            "ens3"
         ],
         "ansible_is_chroot": false,
         "ansible_iscsi_iqn": "",
@@ -1493,9 +1493,9 @@
             "type": "loopback"
         },
         "ansible_loadavg": {
-            "15m": 0.03,
-            "1m": 0.25,
-            "5m": 0.1
+            "15m": 0.01,
+            "1m": 0.1,
+            "5m": 0.04
         },
         "ansible_local": {},
         "ansible_locally_reachable_ips": {
@@ -1506,7 +1506,7 @@
             ],
             "ipv6": [
                 "::1",
-                "fe80::e86:6aff:fea5:0"
+                "fe80::eed:7aff:fefb:0"
             ]
         },
         "ansible_lsb": {
@@ -1518,17 +1518,17 @@
         },
         "ansible_lvm": "N/A",
         "ansible_machine": "x86_64",
-        "ansible_machine_id": "37866aa5d3d74ca8b4136e4026393604",
-        "ansible_memfree_mb": 557,
+        "ansible_machine_id": "fded7afbc218418d8109fce4874eadff",
+        "ansible_memfree_mb": 545,
         "ansible_memory_mb": {
             "nocache": {
-                "free": 819,
-                "used": 162
+                "free": 803,
+                "used": 178
             },
             "real": {
-                "free": 557,
+                "free": 545,
                 "total": 981,
-                "used": 424
+                "used": 436
             },
             "swap": {
                 "cached": 0,
@@ -1540,19 +1540,19 @@
         "ansible_memtotal_mb": 981,
         "ansible_mounts": [
             {
-                "block_available": 183982,
+                "block_available": 1415566,
                 "block_size": 4096,
-                "block_total": 514525,
-                "block_used": 330543,
+                "block_total": 1755129,
+                "block_used": 339563,
                 "device": "/dev/vda1",
                 "fstype": "ext4",
-                "inode_available": 201648,
-                "inode_total": 274176,
-                "inode_used": 72528,
+                "inode_available": 830627,
+                "inode_total": 903168,
+                "inode_used": 72541,
                 "mount": "/",
                 "options": "rw,relatime",
-                "size_available": 753590272,
-                "size_total": 2107494400,
+                "size_available": 5798158336,
+                "size_total": 7189008384,
                 "uuid": "bf3c6466-f491-42a9-9a85-74107222f058"
             },
             {
@@ -1673,13 +1673,13 @@
         },
         "ansible_selinux_python_present": true,
         "ansible_service_mgr": "systemd",
-        "ansible_ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBANfbU9kkyzy5nym9J7Uv5PX+yBNnzqUn/IKkhlaY/ry3yHJGNnEt9fDddcKzHN0dcrT5gXTbtdTv4tVPJAPAydRas8K0O5Oi4mcJutww2yxxLHhPkQdZhBBIcSoB0EDK7LPRX9DksViR3qtgDUHgilqAc9epx+MQu3Lp9wvOyNutAAAAFQDu6CXq0/E815s59ipi/hSPcUIufQAAAIEAkIx3MOmhV9zIPImd2ExTJLAsmJPF42Dgzf3/zDE1uLW8elGyJfrlUCSTd9fLIK9znVxoXyetN154HBIU8clkxz5uWNk2h5k9HQ5aT5wgg94iIhXzxTLi4/uwQx9DiXmxRTOEQ7jj0zAgdudtqqX16li/ArflNRSYNQD9IyEfeWoAAACBAMH1gvQ3ddRUv2UaTyzp3xfhSdlUw47W58FNNhgTBJb2o+g5qqLS3r9mcLb7TF99lYtwRlJsBc6YNRpMghoEFBQ6Ln15wEYYPVNFNnYhZ1c2BQgKQJDKGbuzGjb4t4UofQQJdqUQ05qOH76B4TAgJ8Crhnjdaampab183eBnzS/S",
+        "ansible_ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBALfs2lTLXBA8kYk7oX/RuoDbmhB209pPJFMmQ+qQwDdXvE5wLMT7Gz7GoFwG15QVdqlk96LmRwshuYmnlu7WolrnZuwP9kvWJ0KFlM29/r0z+1mVEZiXQOy2zgHJquux5E59nRg0T372Ugm7gaJpRNRCfzhLZ9fxFHG0Krr5OLIpAAAAFQCzNKE8oPtHu5hCIkn4xWYJKm1tswAAAIEAifcKuu/qS5RIYlLjMOgxwc7/WyNIdP2aWq1W0XyIlxiuL8aL9imv7cdNQrxCkcK0wrcxuqqErCvAjyn9b9Sz6UaevI4xk+n07cCwiuR+0ECz7IPn7bNqpBJsaicDYNu59PyMSTzGjIOhKI/lOTZjWBx1/WZJMGVQC/5a04k11Q8AAACBAI4GxiFXHyfEjYsAza7Y7CjUB45eIll7gN94p01V7b94KhSiecIH9CHuMvWuPAML/VVImkjgxEdTTnV4yl+BKyxCzei+EzyAmuLsauuyeJlc9ZhrQnpgHquMJZjel+eh7yablh/VXuD9IoMXd+8wxjsrml05HpHiBBaqxzMrRdYz",
         "ansible_ssh_host_key_dsa_public_keytype": "ssh-dss",
-        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPtFB7zB8CH/vQmlqHbXpc/3i9cONezuZD6TgOXukLehVgpddKoepCMckRjCQDd+eh76lXzzC4miAYoyPH2dt1c=",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHfKa+ur937t/u2zAey5Az+OY1eSsKF/ZKQCm6OdQsfvAcKOxZeqkpzLKjQFnVVUednDdXzkMaUsRYkaCFaNKX4=",
         "ansible_ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
-        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIF33JdJzZcENQtFGG2Jmh2p8SjN6ClV5UHkfvSmejVKn",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIEAif1ykFoX0uJ780eaN4pm+DexwQLsfXlmjKRVshbY9",
         "ansible_ssh_host_key_ed25519_public_keytype": "ssh-ed25519",
-        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQCu57f+x3lP+uqxbbvQ7EZeJbebHf6D+oSE8rnLGjUzKlDqGQdWJqcB7Vjg0QBgB3gW6HRCuc9gGDN+4xDGh+2D9eowYv77P622/di5BR819wyrgUp/FlDl57i80Ve+ofhDfRJ2EbqrtzeSKSttjkOx7DHw10OZ53QQxSEUOC863llOl+go5YNWLaqjSZKU9NJ6ECTC4NLO/3Co47NOgzhntWU/w+2O7BhKbHpjB5XZfpnll5Txu2d4J/1k5ESWkTHSUHm2p1JgK4ANTh88a3lHu7h8JQSTvZ2sTwfgROAs05+a2ukSovjUqWkI+XP633e0SMIe2PfLeSPk9l8Ix3/x7pJeM24/B1SY/bagKhzseN/R/6tZHmCuQAcd/jVnsgKWF0vkxlXasCYtWgEORGcCUz+yAOEOtpEFDIDalChp2s3yFkm2K+PkkslQjd8tSnSJrVRYfGxRu1kE67XiHbdhOffpfTweZxvLeN4opV8hM3gcdXAEWTQIx5r6VjbF4z0=",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDNHrH2s9hPr/FuTeK4XrMaTL4iACP1CDhq9fcf1GDRNiI8hIsSKMymyppT0sygb5+i2CbHm7usiMr4+0mlOnYlhY6DSN2CqqMonEqUnVvzNJaaHa5uyXsGuHNt3wvy2JqIMt6qNnVGeml22GmloeADYPq387lb/4+wJPYryTnW2MajA6L0ILuhRs69fd5W2wODvTVcN1xz80oxdJV1n6Gi19fzwz2pEPfnCloQRByzE0pjxU1QrhmTLtcTaigUF4pyMKdxHVgl3jQcEm/QI2kPaRnLmVaJKShME2h4ZUeOsfPlWxJnkM7zjxTkv3Hl5h4dLa6ezSangnN5xtiubfKiN5kGQVW1DBWLxWaMnfPLd9QwchuYK3INUj5F42op2LbPHgsPYN3dbcFeXZUr2byYOdj9Szzq/mNKbHAiuWTTVrcBBqGfvxt0tYxrrYkOtSNMl4EGWCK8nbMRDKGr9/jqQtxFnpQBfztMadJF0RaIydhCozhyi5ajVFl7bU0UVZE=",
         "ansible_ssh_host_key_rsa_public_keytype": "ssh-rsa",
         "ansible_swapfree_mb": 0,
         "ansible_swaptotal_mb": 0,
@@ -1689,7 +1689,7 @@
         ],
         "ansible_system_capabilities_enforced": "True",
         "ansible_system_vendor": "QEMU",
-        "ansible_uptime_seconds": 5535,
+        "ansible_uptime_seconds": 7591,
         "ansible_user_dir": "/home/ubuntu",
         "ansible_user_gecos": "Ubuntu",
         "ansible_user_gid": 1000,
@@ -1720,7 +1720,7 @@
             "172.31.115.12"
         ],
         "ansible_all_ipv6_addresses": [
-            "fe80::eb3:5ff:fe3f:0"
+            "fe80::eaf:9ff:feea:0"
         ],
         "ansible_apparmor": {
             "status": "enabled"
@@ -1745,25 +1745,25 @@
             "root": "PARTUUID=d6580da4-156a-40c4-b838-d13c68c37fd3"
         },
         "ansible_date_time": {
-            "date": "2024-08-13",
-            "day": "13",
-            "epoch": "1723553433",
-            "epoch_int": "1723553433",
-            "hour": "12",
-            "iso8601": "2024-08-13T12:50:33Z",
-            "iso8601_basic": "20240813T125033318873",
-            "iso8601_basic_short": "20240813T125033",
-            "iso8601_micro": "2024-08-13T12:50:33.318873Z",
-            "minute": "50",
-            "month": "08",
-            "second": "33",
-            "time": "12:50:33",
+            "date": "2024-10-02",
+            "day": "02",
+            "epoch": "1727864397",
+            "epoch_int": "1727864397",
+            "hour": "10",
+            "iso8601": "2024-10-02T10:19:57Z",
+            "iso8601_basic": "20241002T101957529466",
+            "iso8601_basic_short": "20241002T101957",
+            "iso8601_micro": "2024-10-02T10:19:57.529466Z",
+            "minute": "19",
+            "month": "10",
+            "second": "57",
+            "time": "10:19:57",
             "tz": "UTC",
             "tz_dst": "UTC",
             "tz_offset": "+0000",
-            "weekday": "Tuesday",
-            "weekday_number": "2",
-            "weeknumber": "33",
+            "weekday": "Wednesday",
+            "weekday_number": "3",
+            "weeknumber": "40",
             "year": "2024"
         },
         "ansible_default_ipv4": {
@@ -1772,7 +1772,7 @@
             "broadcast": "172.31.115.255",
             "gateway": "172.31.115.1",
             "interface": "ens3",
-            "macaddress": "0c:b3:05:3f:00:00",
+            "macaddress": "0c:af:09:ea:00:00",
             "mtu": 1500,
             "netmask": "255.255.255.0",
             "network": "172.31.115.0",
@@ -2070,9 +2070,9 @@
                                 "bf3c6466-f491-42a9-9a85-74107222f058"
                             ]
                         },
-                        "sectors": "4384735",
+                        "sectors": "14624735",
                         "sectorsize": 512,
-                        "size": "2.09 GB",
+                        "size": "6.97 GB",
                         "start": "227328",
                         "uuid": "bf3c6466-f491-42a9-9a85-74107222f058"
                     },
@@ -2114,9 +2114,9 @@
                 "sas_address": null,
                 "sas_device_handle": null,
                 "scheduler_mode": "mq-deadline",
-                "sectors": "4612096",
+                "sectors": "14852096",
                 "sectorsize": "512",
-                "size": "2.20 GB",
+                "size": "7.08 GB",
                 "support_discard": "512",
                 "vendor": "0x1af4",
                 "virtual": 1
@@ -2212,12 +2212,12 @@
             },
             "ipv6": [
                 {
-                    "address": "fe80::eb3:5ff:fe3f:0",
+                    "address": "fe80::eaf:9ff:feea:0",
                     "prefix": "64",
                     "scope": "link"
                 }
             ],
-            "macaddress": "0c:b3:05:3f:00:00",
+            "macaddress": "0c:af:09:ea:00:00",
             "module": "virtio_net",
             "mtu": 1500,
             "pciid": "virtio0",
@@ -2240,14 +2240,14 @@
             "PWD": "/home/ubuntu",
             "SHELL": "/bin/bash",
             "SHLVL": "0",
-            "SSH_CLIENT": "10.110.198.48 46390 22",
-            "SSH_CONNECTION": "10.110.198.48 46390 172.31.115.12 22",
-            "SSH_TTY": "/dev/pts/0",
+            "SSH_CLIENT": "10.110.198.49 34966 22",
+            "SSH_CONNECTION": "10.110.198.49 34966 172.31.115.12 22",
+            "SSH_TTY": "/dev/pts/1",
             "TERM": "xterm-256color",
             "USER": "ubuntu",
             "XDG_RUNTIME_DIR": "/run/user/1000",
             "XDG_SESSION_CLASS": "user",
-            "XDG_SESSION_ID": "13",
+            "XDG_SESSION_ID": "18",
             "XDG_SESSION_TYPE": "tty",
             "_": "/bin/sh"
         },
@@ -2351,9 +2351,9 @@
             "type": "loopback"
         },
         "ansible_loadavg": {
-            "15m": 0.01,
-            "1m": 0.12,
-            "5m": 0.03
+            "15m": 0.08,
+            "1m": 0.09,
+            "5m": 0.12
         },
         "ansible_local": {},
         "ansible_locally_reachable_ips": {
@@ -2364,7 +2364,7 @@
             ],
             "ipv6": [
                 "::1",
-                "fe80::eb3:5ff:fe3f:0"
+                "fe80::eaf:9ff:feea:0"
             ]
         },
         "ansible_lsb": {
@@ -2376,17 +2376,17 @@
         },
         "ansible_lvm": "N/A",
         "ansible_machine": "x86_64",
-        "ansible_machine_id": "fab3053fcd6244c29e1c4fb155d3d7db",
-        "ansible_memfree_mb": 560,
+        "ansible_machine_id": "e3af09eacaa4445caa28c6aa7ce83c7c",
+        "ansible_memfree_mb": 160,
         "ansible_memory_mb": {
             "nocache": {
-                "free": 819,
-                "used": 162
+                "free": 748,
+                "used": 233
             },
             "real": {
-                "free": 560,
+                "free": 160,
                 "total": 981,
-                "used": 421
+                "used": 821
             },
             "swap": {
                 "cached": 0,
@@ -2398,19 +2398,19 @@
         "ansible_memtotal_mb": 981,
         "ansible_mounts": [
             {
-                "block_available": 183986,
+                "block_available": 1182178,
                 "block_size": 4096,
-                "block_total": 514525,
-                "block_used": 330539,
+                "block_total": 1755129,
+                "block_used": 572951,
                 "device": "/dev/vda1",
                 "fstype": "ext4",
-                "inode_available": 201648,
-                "inode_total": 274176,
-                "inode_used": 72528,
+                "inode_available": 765333,
+                "inode_total": 903168,
+                "inode_used": 137835,
                 "mount": "/",
                 "options": "rw,relatime",
-                "size_available": 753606656,
-                "size_total": 2107494400,
+                "size_available": 4842201088,
+                "size_total": 7189008384,
                 "uuid": "bf3c6466-f491-42a9-9a85-74107222f058"
             },
             {
@@ -2531,13 +2531,13 @@
         },
         "ansible_selinux_python_present": true,
         "ansible_service_mgr": "systemd",
-        "ansible_ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBAPH/vBYQazTW3D24Y/JI1xxP0pj8Ih6ID0yOpV4Jd/DoqIkRCjdESXklwORPMcYOve4wLGWn5dm4LjKMVBci3vppWNxyxsFEsgTpzbXAgAqgda8nJaVxYI6r3uK7GDcgEMATvz5pjcybt10Na5Yw4M8zv3p5WyEl0eV/M+t/DBAfAAAAFQCYhxxd9QtrVvDhRJV5gD8nk4yeiwAAAIEAmYzRzgfy39qTOWiWyGeOqkzCgaLtldrBZHhriiYtS+xc+EckufbfW6UxfHTSqjrR1uElaeE2mqzn8GNTW7dvgRGgEohciycTn5+KsAK40nh4liJGeeKphzS1Q50ipcMjjDaj5n6Mltf+fKaCux7xFaokNt/1u2jhkAASco/6SgkAAACAe3tDKZkJI4x1LUwZbit8Szq4kRWhzbXOSKFKyTGb9Tk+e59rDvlwxWBAKCTTL0FwEXUNVbN3yQb8X6rgoL3NiwLCtK5GDNO6T0/4kZc8ondU0PxIoLFVotYbbcNznRHl0dqTSWtKox5RxdQpISkB+54FGQ6aORG7lyjNZL2hVSM=",
+        "ansible_ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBAOopMzNGbEY/0oUV5A2Vdw8znQDl1S82WuE18G5N4/yAicF3egPuhnOPK78rUL7kodf9/3XoYcmnqDqooeP7ClSPs9OvJwiWtJpFoTEb4sXXSxXenWnBqCCD2v/g6gjHbs36D7MLI4GdTHeS71Mn9umiWpa5DP8ILcpTXqC8maLNAAAAFQCFzjhFuhMpvfmUQamFGwjVsWlqaQAAAIEAvzza0Wmx3SE1ExG9bmz0TPuzP7Quzn8UlJvBpmm1UyETqtnaVf31+Bkjf2IDlOr34JQxXEAfevB5lHOAadlcAqw0H0sFoZw69V80qvoIU9JB5uO/v5nYf5+shVNnjWI4jd8Vkzz63TxfqnN7hmxJcgGev1olk8XBFDTe0EoMLa8AAACBAN7gHLPkjBpk91Bbt2ldK/FpLjw+NljIzUOn5L7NOJNxdxMf7Ti0vyv6x6+EhRGK7LAYnYweXlXsZvFHLb4PXZg8IXdHzFmGvKYxx7pQAgiGvTDrwOPaAFXg/AHp70mwVd59cYvdpdyd5mQxVuko7K1I4Q1f2Gth2UrO1KQKgDS+",
         "ansible_ssh_host_key_dsa_public_keytype": "ssh-dss",
-        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNqtT3vaXpAE1Dd8lAC/2ONcDoql9JcGk2pxr7Cqpgehwk/JLPYqNsJ96bzzT1aT0g1NtRnWThkzpEicvnqUg50=",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHRRDizvLNUs8GcqJmG4+dHahvVPujqKHkCu+uviYB5s+uKu1tyCli4pqwte4fnVt36EWBnv9WCi7i/7/qErkYA=",
         "ansible_ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
-        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIH6ybF/XK0+yd/myKlRscccihf6iN7tt8ehlAXGz0dFW",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIJ3hkozwh0XROpVTDNwUfl3rBUHEEEMa1SsCKLmAZ/4k",
         "ansible_ssh_host_key_ed25519_public_keytype": "ssh-ed25519",
-        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDLGPh8Bn/cuZU6quIlJ8QXDb1GcO4J6YOTXREpFNewtDqj+C9V7bKwbPP1MkuCv5en2s1k82mslpyuC27ngmU5u5PI18denzxFyNKGt0eXERFkwA119d5oaIxsykm7TqoXK/ocK5Wms8JW1wtZiSmNQ0VVEGh/ny2pZ7sMC8owp4xOFOtP7vmqgkCbnps2Lau4UeXQP3zO0L4JWvgizBmcF4E3qJ0Zl1OlnPQQ8cYCtLTx8kVbr3u5Dz6frk75k+5T8gknyfPvEt9jvqueGeJlVghADxxoAQ3xdODo5VPDPnstrk78QwFyeY5TmAfIH/GeB8MSPEia9NPwHMC4oj/jcww/sUrrspvHUHSSZfMeeFP9QtKsaXR8jqiaPcvU9FrV3o72MCuAhYypadPYzNvh9IcEiW57O4n+No4CFmvyTGS1RZKuLE9VqwaKkGAb3iQkW80zJDNfbKJU8gFSdUdl+F8VFPaVd/qJJMFqqDyO+TEFR/VxMVnC+mQfq3o4baU=",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDSelPlIXQwW58iREg3uTbY9v6jBBZMzQxQjnZNHZpxQFktKAq/3VKXwQ68wG4EouJfRAXW+09xYWt+aajCNP22sMGUsg5MajlTKg1JWrEV+8iyJ9eTr94LlDo78AFJhkw10zY6N9agOG39SuS7ofp7B/g+jjHwna3DzfeHt21HbhTFiKxboyRUKXoH8RzoiOxRmfHs5bUnmL6/6tyQX3ihUYsCcRRwIfu1UFvso3KZNDbLwJrSUMnWMLqGKElh7z7IPcoNT1pbyw17fsWOc2NtCIZb3Uk5x1B5IiVBpJUl/IyEIiZLyRRcubEx3qXuKgeBKF6MUicm/+qfor0yXJzohAlQBn878kOLO6ZHmkVAlRhY3IpOvWbAqZo7wW9FH650AIdTmxKnNxYNVH4yRtFYAALK8xK4UDGJoPOXKzGMIP+vlDBAtim1EojAslUp3YQ4pTFFOud4g1Je6HFzqaiZEciewxMqUIwW4SkmZgk/Z1KjGt1OlIOA3ZTOEbCiuyU=",
         "ansible_ssh_host_key_rsa_public_keytype": "ssh-rsa",
         "ansible_swapfree_mb": 0,
         "ansible_swaptotal_mb": 0,
@@ -2547,7 +2547,7 @@
         ],
         "ansible_system_capabilities_enforced": "True",
         "ansible_system_vendor": "QEMU",
-        "ansible_uptime_seconds": 5034,
+        "ansible_uptime_seconds": 7499,
         "ansible_user_dir": "/home/ubuntu",
         "ansible_user_gecos": "Ubuntu",
         "ansible_user_gid": 1000,
